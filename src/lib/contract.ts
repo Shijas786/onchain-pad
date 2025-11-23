@@ -1,4 +1,4 @@
-export const ONCHAIN_NOTES_ADDRESS = "0xYourContractAddressHere" as const;
+export const ONCHAIN_NOTES_ADDRESS = "0x2df31A447D7a662D95F334aB04EaaC6EDA33D981" as const;
 
 export const ONCHAIN_NOTES_ABI = [
   {

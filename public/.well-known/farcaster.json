@@ -1,0 +1,14 @@
+{
+    "name": "Onchain Notes",
+    "description": "Post sticky notes onchain using Base.",
+    "url": "https://onchain-note.vercel.app",
+    "icon": "https://onchain-note.vercel.app/icon.png",
+    "category": "utility",
+    "screenshots": [
+        "https://onchain-note.vercel.app/screenshot.png"
+    ],
+    "creator": {
+        "name": "Shijas",
+        "url": "https://onchain-note.vercel.app"
+    }
+}
