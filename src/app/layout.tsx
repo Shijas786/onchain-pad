@@ -8,8 +8,20 @@ import { headers } from "next/headers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Onchain Notes",
-  description: "Leave a short note on Base.",
+  title: "Onchain Pad",
+  description: "Post notes on Base",
+  openGraph: {
+    title: "Onchain Pad",
+    description: "Post simple onchain notes",
+    images: ["https://onchain-note.vercel.app/og.png"],
+  },
+  other: {
+    "fc:frame": "vNext",
+    "fc:frame:image": "https://onchain-note.vercel.app/og.png",
+    "fc:frame:button:1": "Open Onchain Pad",
+    "fc:frame:button:1:action": "link",
+    "fc:frame:button:1:target": "https://onchain-note.vercel.app",
+  }
 };
 
 export default function RootLayout({

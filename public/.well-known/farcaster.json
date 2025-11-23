@@ -1,6 +1,22 @@
 {
-    "name": "Onchain Notes",
-    "description": "Post sticky notes onchain using Base.",
+    "accountAssociation": {
+        "header": "eyJmaWQiOjI1OTkxMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweDE2QmM5MDJjYzk3NDRkOThmRjAzRDEyOTA0MjVhRkQ0RDRiOTAyMWEifQ",
+        "payload": "eyJkb21haW4iOiJvbmNoYWluLW5vdGUudmVyY2VsLmFwcCJ9",
+        "signature": "w/kjyUJrhdetTT62UyP7UjW/qggAIcJAhI4B06IjuPJPc1KIv55G9RPoKdA00Y9cz+WCSj+fRYpmJMTt7CG/Yhw="
+    },
+    "frame": {
+        "version": "1",
+        "name": "Onchain Pad",
+        "iconUrl": "https://onchain-note.vercel.app/icon.png",
+        "homeUrl": "https://onchain-note.vercel.app",
+        "imageUrl": "https://onchain-note.vercel.app/hero.png",
+        "buttonTitle": "Open Onchain Pad",
+        "splashImageUrl": "https://onchain-note.vercel.app/splash.png",
+        "splashBackgroundColor": "#0A0A0A",
+        "webhookUrl": "https://onchain-note.vercel.app/api/webhook"
+    },
+    "name": "Onchain Pad",
+    "description": "Onchain Pad lets you write short notes directly on Base. Every note is stored permanently onchain and displayed in a clean, minimal sticky-pad interface.",
     "url": "https://onchain-note.vercel.app",
     "icon": "https://onchain-note.vercel.app/icon.png",
     "category": "utility",
@@ -10,10 +26,5 @@
     "creator": {
         "name": "Shijas",
         "url": "https://onchain-note.vercel.app"
-    },
-    "accountAssociation": {
-        "header": "eyJmaWQiOjI1OTkxMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweDE2QmM5MDJjYzk3NDRkOThmRjAzRDEyOTA0MjVhRkQ0RDRiOTAyMWEifQ",
-        "payload": "eyJkb21haW4iOiJvbmNoYWluLW5vdGUudmVyY2VsLmFwcCJ9",
-        "signature": "w/kjyUJrhdetTT62UyP7UjW/qggAIcJAhI4B06IjuPJPc1KIv55G9RPoKdA00Y9cz+WCSj+fRYpmJMTt7CG/Yhw="
     }
 }
