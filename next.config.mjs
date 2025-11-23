@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    webpack: (config) => {
+        config.externals.push("pino-pretty", "lokijs", "encoding", "aws-crt");
+        return config;
+    },
+};
 
 export default nextConfig;
