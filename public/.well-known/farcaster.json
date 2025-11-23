@@ -10,5 +10,10 @@
     "creator": {
         "name": "Shijas",
         "url": "https://onchain-note.vercel.app"
+    },
+    "accountAssociation": {
+        "header": "eyJmaWQiOjI1OTkxMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweDE2QmM5MDJjYzk3NDRkOThmRjAzRDEyOTA0MjVhRkQ0RDRiOTAyMWEifQ",
+        "payload": "eyJkb21haW4iOiJvbmNoYWluLW5vdGUudmVyY2VsLmFwcCJ9",
+        "signature": "w/kjyUJrhdetTT62UyP7UjW/qggAIcJAhI4B06IjuPJPc1KIv55G9RPoKdA00Y9cz+WCSj+fRYpmJMTt7CG/Yhw="
     }
 }
