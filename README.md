@@ -67,8 +67,10 @@ Perfect for:
 
 ### Farcaster
 - **SDK:** @farcaster/frame-sdk
-- **Integration:** Native mini-app support
-- **Auto-connect:** Coinbase Smart Wallet
+- **Wagmi Connector:** @farcaster/miniapp-wagmi-connector
+- **Integration:** Native mini-app support with auto-connect
+- **Auto-connect:** Instant wallet connection in Farcaster clients
+- **Chain Switching:** Automatic Base network switching
 
 ## 📄 Smart Contract
 

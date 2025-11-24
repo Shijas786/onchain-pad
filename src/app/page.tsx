@@ -5,10 +5,14 @@ import { useAppKit } from "@reown/appkit/react";
 import NoteComposer from "@/components/NoteComposer";
 import NotesGrid from "@/components/NotesGrid";
 import { motion } from "framer-motion";
+import { useFarcasterAutoConnect } from "@/hooks/useFarcasterUtils";
 
 export default function Home() {
   const { address, isConnected } = useAccount();
   const { open } = useAppKit();
+
+  // Auto-connect wallet in Farcaster environment
+  useFarcasterAutoConnect();
 
   return (
     <main className="min-h-screen flex flex-col items-center px-4 py-8 bg-black text-white">

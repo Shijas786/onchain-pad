@@ -12,6 +12,8 @@
     "@base-org/account": "^2.4.2",
     "@coinbase/wallet-sdk": "^4.3.7",
     "@farcaster/frame-sdk": "^0.0.64",
+    "@farcaster/miniapp-sdk": "^0.2.1",
+    "@farcaster/miniapp-wagmi-connector": "^1.1.0",
     "@gemini-wallet/core": "^0.3.2",
     "@metamask/sdk": "^0.33.1",
     "@reown/appkit": "^1.8.14",
